@@ -26,4 +26,4 @@ class LifeSupportPlannerTest(unittest.TestCase):
 
         planner = LifeSupportPlanner()
         items = planner.trip(items=res, crew_members=crew)
-        self.assertEquals(sum((i["weight"] for i in items), 21.5)
+        self.assertEquals(sum((i["weight"] for i in items)), 21.5)
