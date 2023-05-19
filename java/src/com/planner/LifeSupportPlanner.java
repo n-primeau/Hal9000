@@ -35,6 +35,8 @@ public class LifeSupportPlanner {
                 throw new RuntimeException("not enough resources!");
             }
         }
+        
+        System.out.println(resources_required);
         return resources_required;
 
     }
